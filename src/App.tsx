@@ -11,6 +11,7 @@ import Operations from './pages/Operations';
 import Inbox from './pages/Inbox';
 import Reports from './pages/Reports';
 import Marketplace from './pages/Marketplace';
+import PMS from './pages/PMS';
 import Compliance from './pages/Compliance';
 import Support from './pages/Support';
 import Settings from './pages/Settings';
@@ -31,6 +32,7 @@ export default function App() {
           <Route path="/inbox/*" element={<Inbox />} />
           <Route path="/reports/*" element={<Reports />} />
           <Route path="/marketplace/*" element={<Marketplace />} />
+          <Route path="/pms/*" element={<PMS />} />
           <Route path="/compliance/*" element={<Compliance />} />
           <Route path="/support/*" element={<Support />} />
           <Route path="/settings/*" element={<Settings />} />

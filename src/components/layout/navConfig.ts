@@ -13,6 +13,7 @@ import {
   HeadphonesIcon,
   Settings,
   ShieldCheck,
+  Home,
   ChevronDown,
   ChevronRight,
 } from 'lucide-react';
@@ -203,6 +204,24 @@ export const navigation: NavGroup[] = [
           { id: 'mkt-moderation', label: 'Moderation', path: '/marketplace/moderation' },
           { id: 'mkt-advertising', label: 'Advertising', path: '/marketplace/advertising' },
           { id: 'mkt-health', label: 'Platform Health', path: '/marketplace/health' },
+        ],
+      },
+      {
+        id: 'pms',
+        label: 'Property Management',
+        path: '/pms',
+        icon: Home,
+        badge: '84',
+        children: [
+          { id: 'pms-login', label: 'Auth & Users', path: '/pms/login' },
+          { id: 'pms-properties', label: 'Properties', path: '/pms/property-list' },
+          { id: 'pms-units', label: 'Units', path: '/pms/unit-list' },
+          { id: 'pms-tenants', label: 'Tenants', path: '/pms/tenant-directory' },
+          { id: 'pms-leases', label: 'Leases', path: '/pms/lease-wizard' },
+          { id: 'pms-payments', label: 'Rent & Payments', path: '/pms/rent-dashboard' },
+          { id: 'pms-maintenance', label: 'Maintenance', path: '/pms/maint-dashboard' },
+          { id: 'pms-vendors', label: 'Vendors', path: '/pms/vendor-directory' },
+          { id: 'pms-financial', label: 'Financial', path: '/pms/fin-income' },
         ],
       },
       {
